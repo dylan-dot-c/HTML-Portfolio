@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Righteous", cursive;
+  background: linear-gradient(#071952 30%, #ad0956);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+a > .fa-brands {
+  font-size: 30px;
+  padding-right: 20px;
+  transition: 0.5s;
+}
+
+.fa-brands:hover {
+  color: white;
+  transform: scale(1.3);
+}
+
+header {
+  background-color: #071952;
+  padding: 10px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.social {
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.nav-links {
+  display: inline;
+  padding: 10px 20px;
+  color: #088395;
+}
+
+.nav-links:hover {
+  /* background-color: #088395; */
+  color: #f2f7a1;
+  transition: 0.3s;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+section > div {
+  flex-basis: 500px;
+}
+
+#contact-me {
+  display: block;
+  max-width: 700px;
+  margin: auto;
+}
+#contact-me h2 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+ul li {
+  color: white;
+  list-style: square;
+  margin-bottom: 10px;
+  color: rgb(0, 216, 166);
+}
+
+.social-links {
+  display: inline;
+  list-style: none;
+  color: #f2f7a1;
+}
+
+form label {
+  display: block;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 700px;
+  padding-bottom: 50px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 2px #071952 solid;
+  border-radius: 10px;
+  outline: none;
+  font-size: 18px;
+  width: 100%;
+}
+
+input:focus,
+textarea:focus {
+  outline: 3px solid rgb(0, 213, 228);
+}
+
+textarea {
+  resize: none;
+}
+
+footer {
+  text-align: center;
+  background: black;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 3px; */
+}
+
+footer .nav-links {
+  margin-bottom: 0;
+}
+
+.form-buttons button {
+  /* border: 3px solid #071952; */
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button[type="reset"] {
+  background-color: rgb(219, 37, 9);
+  color: white;
+}

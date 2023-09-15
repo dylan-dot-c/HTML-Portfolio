@@ -58,7 +58,7 @@ header {
 .nav-links {
   display: inline;
   padding: 10px 20px;
-  color: #088395;
+  color: #05c9e8;
 }
 
 .nav-links:hover {
@@ -103,7 +103,7 @@ ul li {
   color: white;
   list-style: square;
   margin-bottom: 10px;
-  color: rgb(0, 216, 166);
+  color: #05c9e8;
 }
 
 .social-links {
